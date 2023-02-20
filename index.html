@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <div class="container">
+      <main class="card">
+        <!-- card photos  -->
+        <div class="card_photos">
+          <img
+            src="./images/image-equilibrium.jpg"
+            alt="NFT PHOTO"
+            class="card_photo"
+          />
+          <a href="#" class="hover_card">
+            <img src="./images/icon-view.svg" alt="" />
+          </a>
+        </div>
+        <!-- CARD CONTENET  -->
+        <div class="card_content">
+          <h3 class="card_title">Equilibrium #3429</h3>
+          <p class="card_desc">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+
+          <div class="flex_grp">
+            <div class="price_grp">
+              <img
+                src="./images/icon-ethereum.svg"
+                width="10px"
+                style="margin-right: 5px"
+              />
+              <span class="price">0.041 ETH</span>
+            </div>
+            <div class="time_bids">
+              <img
+                src="./images/icon-clock.svg"
+                width="15px"
+                style="margin-right: 5px"
+                alt=""
+              />
+              <span class="time_text">3 days left</span>
+            </div>
+          </div>
+
+          <!-- horizontal line  -->
+          <hr class="line" />
+          <!-- nft owner info  -->
+
+          <div class="owner_info">
+            <img src="./images/image-avatar.png" alt="" class="owner_photo" />
+            <p class="owner_info">
+              Creation of <span class="name"> Jules Wyvern</span>
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
